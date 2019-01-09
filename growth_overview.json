@@ -82,7 +82,7 @@
                 "mkt_display": "all",
                 "mkt_col": "RMB",
                 "pos": [
-                  30, 60, 100, 100
+                  30, 100, 100, 100
                 ],
                 "timeline": [
                   "MAT M09 18:timeline_1",
