@@ -1,0 +1,392 @@
+{
+  "title": "growth",
+  "slices": [
+    {
+      "filter": {
+        "name": ["market","movMktOne","Manufa"],
+        "description": "3",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "Lilly Performance",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewMarketTrendLine",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 300, 300, 200
+                ],
+                "timeline": [
+                  "MAT M09 16:timeline_1",
+                  "MAT M09 17:timeline_1",
+                  "MAT M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Lilly:row_chart",
+                    "MNC:row_chart",
+                    "Total:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": ["ManufaMNC", "market", "movMktOne"],
+        "description": "4",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "Corporation Growth Rate Overview (2018 Sep)",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankGrowthTable",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 60, 100, 100
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1",
+                  "YTD M09 18:timeline_1",
+                  "M09 18:timeline_1",
+                  "RQ M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : "GR(%) Overview:col_title_common",
+                  "count" : [
+                    "GR(%):col_common1"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Total:row_1",
+                    "Local:row_1",
+                    "MNC:row_1"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+    {
+      "filter": {
+        "name": ["ManufaMNC", "Manufa"],
+        "description": "7,8,9,10",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "RMB Growth Rate – Total Market & MNC Only",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankComboChart",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "data": "Manufa",
+                "pos": [
+                  30, 60, 600, 200
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "MAT Product Growth(%):col_chart",
+                    "MAT Mkt Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankComboChart",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "data": "ManufaMNC",
+                "pos": [
+                  30, 300, 600, 200
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "MAT Product Growth(%):col_chart",
+                    "MAT Mkt Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "RMB Growth Rate – Total Market & MNC Only",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankComboChart",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "data": "Manufa",
+                "pos": [
+                  30, 60, 600, 200
+                ],
+                "timeline": [
+                  "YTD M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "YTD Product Growth(%):col_chart",
+                    "YTD Mkt Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankComboChart",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "data": "ManufaMNC",
+                "pos": [
+                  30, 300, 600, 200
+                ],
+                "timeline": [
+                  "YTD M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "YTD Product Growth(%):col_chart",
+                    "YTD Mkt Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "RMB Growth Rate – Total Market & MNC Only",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankComboChart",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "data": "Manufa",
+                "pos": [
+                  30, 60, 600, 200
+                ],
+                "timeline": [
+                  "RQ M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Rolling QTR Product Growth(%):col_chart",
+                    "Rolling QTR Mkt Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankComboChart",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "data": "ManufaMNC",
+                "pos": [
+                  30, 300, 600, 200
+                ],
+                "timeline": [
+                  "RQ M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Rolling QTR Product Growth(%):col_chart",
+                    "Rolling QTR Mkt Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "RMB Growth Rate – Total Market & MNC Only",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankComboChart",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "data": "Manufa",
+                "pos": [
+                  30, 60, 600, 200
+                ],
+                "timeline": [
+                  "M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "MTH Product Growth(%):col_chart",
+                    "MTH Mkt Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankComboChart",
+                "mkt_display": "all",
+                "mkt_col": "RMB",
+                "data": "ManufaMNC",
+                "pos": [
+                  30, 300, 600, 200
+                ],
+                "timeline": [
+                  "M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "MTH Product Growth(%):col_chart",
+                    "MTH Mkt Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

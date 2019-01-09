@@ -1,0 +1,587 @@
+{
+  "title": "5,6,7,8,9,10,11,14",
+  "slices": [
+    {
+      "filter": {
+        "name": ["Manufa", "market", "movMktOne"],
+        "description": "5",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "SOM&GR of LOCAL/JV/IM in CHPA",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContent3DPieChart",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  200, 70, 250, 200
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1",
+                  "M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "RMB:col_chart2"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Import:row_5",
+                    "Join-Venture:row_5",
+                    "Local:row_5"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phDoubleTimeLineTable",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 300, 81, 81
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1",
+                  "M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Growth(%):col_chart2"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Lilly:row_5",
+                    "Local:row_5",
+                    "MNC:row_5",
+                    "Total:row_5"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewMarketTrendTable",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 400, 61, 81
+                ],
+                "timeline": [
+                  "MAT M10 17:timeline_1", "MAT M11 17:timeline_1","MAT M12 17:timeline_1","MAT M01 18:timeline_1","MAT M02 18:timeline_1","MAT M03 18:timeline_1",
+                  "MAT M04 18:timeline_1","MAT M05 18:timeline_1","MAT M06 18:timeline_1","MAT M07 18:timeline_1","MAT M08 18:timeline_1","MAT M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Growth(%):col_chart2"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart1",
+                  "display_name" : [
+                    "Local:row_5",
+                    "MNC:row_5",
+                    "Total:row_5"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": ["market","movMktOne"],
+        "description": "6",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "test",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewMarketThrendChart",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 60, 600, 400
+                ],
+                "timeline": [
+                  "M10 17:timeline_1",
+                  "M11 17:timeline_1",
+                  "M12 17:timeline_1",
+                  "M01 18:timeline_1",
+                  "M02 18:timeline_1",
+                  "M03 18:timeline_1",
+                  "M04 18:timeline_1",
+                  "M05 18:timeline_1",
+                  "M06 18:timeline_1",
+                  "M07 18:timeline_1",
+                  "M08 18:timeline_1",
+                  "M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "SOM(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "LOCAL:row_chart",
+                    "JOINT-VENTURE:row_chart",
+                    "IMPORT:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": ["Manufa"],
+        "description": "7",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "Top 20 Corporations Cash SOM in CHPA \n (MAT M09 18)",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankColumnTable",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 60, 600, 400
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1"
+                ],
+                "data": "Manufa",
+                "mapping": "",
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "SOM(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": ["ManufaMNC"],
+        "description": "8",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "Top 20 Corporations Cash SOM in CHPA \n (MAT M09 18)",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankColumnTable",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 60, 600, 400
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1"
+                ],
+                "data": "ManufaMNC",
+                "mapping": "",
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "SOM(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    ""
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": ["Manufa","movMktThree"],
+        "description": "9",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "Lilly and Top MNCs Cash SOM Trends in CHPA Monthly ",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankLineTable",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 60, 600, 400
+                ],
+                "timeline": [
+                  "M10 17:.timeline_1",
+                  "M11 17:.timeline_1",
+                  "M12 17:.timeline_1",
+                  "M01 18:.timeline_1",
+                  "M02 18:.timeline_1",
+                  "M03 18:.timeline_1",
+                  "M04 18:.timeline_1",
+                  "M05 18:.timeline_1",
+                  "M06 18:.timeline_1",
+                  "M07 18:.timeline_1",
+                  "M08 18:.timeline_1",
+                  "M09 18:.timeline_1"
+                ],
+                "data": "Manufa",
+                "mapping": "movMktThree",
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "SOM(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "ELI LILLY GROUP:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": ["Manufa"],
+        "description": "10",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "Total Corporations",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankTable",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 60, 81, 81
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1",
+                  "MAT M09 17:timeline_1",
+                  "M09 18:timeline_1",
+                  "M09 17:timeline_1"
+                ],
+                "rank_timeline": ["MAT M09 18:timeline_1","MAT M09 17:timeline_1","M09 18:timeline_1","M09 17:timeline_1"],
+                "data": "Manufa",
+                "mapping": "",
+                "col": {
+                  "title" : "Rank:col_title_rank",
+                  "count" : [
+                    "RMB(Bn):col_common",
+                    "GROWTH(%):col_common",
+                    "SOM(%):col_common",
+                    "EV:col_common"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart1",
+                  "display_name" : [
+                    "CHPA Total Mkt:row_9",
+                    "ELI LILLY GROUP:row_7"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": ["ManufaMNC"],
+        "description": "11",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "MNC Corporations",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.overview.phOverViewRankTable",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 60, 81, 81
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1",
+                  "MAT M09 17:timeline_1",
+                  "M09 18:timeline_1",
+                  "M09 17:timeline_1"
+                ],
+                "rank_timeline": ["MAT M09 18:timeline_1","MAT M09 17:timeline_1","M09 18:timeline_1","M09 17:timeline_1"],
+                "data": "ManufaMNC",
+                "mapping": "",
+                "col": {
+                  "title" : "Rank:col_title_rank",
+                  "count" : [
+                    "RMB(Bn):col_common",
+                    "GROWTH(%):col_common",
+                    "SOM(%):col_common",
+                    "EV:col_common"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart1",
+                  "display_name" : [
+                    "CHPA MNC Mkt:row_9",
+                    "ELI LILLY GROUP:row_7"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": ["LLYProd","movMktTwo"],
+        "description": "14",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phMOVFilterImpl",
+        "filt": []
+      },
+      "sliders": [
+        {
+          "title": "test",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentPieChart",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  30, 300, 300, 200
+                ],
+                "timeline": [
+                  "MAT M09 16:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "RMB:col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Ceclor:row_chart",
+                    "Vancocin:row_chart",
+                    "Cialis:row_chart",
+                    "Evista:row_chart",
+                    "Lly Insulin:row_chart",
+                    "Gemzar:row_chart",
+                    "Alimta:row_chart",
+                    "Prozac:row_chart",
+                    "Cymbalta:row_chart",
+                    "Zyprexa:row_chart",
+                    "Strattera:row_chart"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentPieChart",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  200, 150, 300, 200
+                ],
+                "timeline": [
+                  "MAT M09 17:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "RMB:col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Ceclor:row_chart",
+                    "Vancocin:row_chart",
+                    "Cialis:row_chart",
+                    "Evista:row_chart",
+                    "Lly Insulin:row_chart",
+                    "Gemzar:row_chart",
+                    "Alimta:row_chart",
+                    "Prozac:row_chart",
+                    "Cymbalta:row_chart",
+                    "Zyprexa:row_chart",
+                    "Strattera:row_chart"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentPieChart",
+                "mkt_display": "",
+                "mkt_col": "RMB",
+                "pos": [
+                  400, 60, 300, 200
+                ],
+                "timeline": [
+                  "MAT M09 18:timeline_1"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "RMB:col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Ceclor:row_chart",
+                    "Vancocin:row_chart",
+                    "Cialis:row_chart",
+                    "Evista:row_chart",
+                    "Lly Insulin:row_chart",
+                    "Gemzar:row_chart",
+                    "Alimta:row_chart",
+                    "Prozac:row_chart",
+                    "Cymbalta:row_chart",
+                    "Zyprexa:row_chart",
+                    "Strattera:row_chart"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
