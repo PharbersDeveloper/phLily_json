@@ -76,16 +76,6 @@
     "cellBorders" : ["top#Thin", "bottom#Thin"],
     "height" : "25"
   },
-  "col_title_common2" : {
-    "factory" : "PhPPTGen.phCommand.phExcel.PhSetXlsCssBaseCommand",
-    "fontSize" : "9",
-    "fontColor" : "#FFFFFF",
-    "fontName" : "Tahoma",
-    "fontStyle" : ["bold"],
-    "cellColor" : "#FF0000",
-    "cellBorders" : ["top#Thin", "bottom#Thin"],
-    "height" : "34.2"
-  },
   "col_title_chart" : {
     "factory" : "PhPPTGen.phCommand.phExcel.PhSetXlsCssBaseCommand",
     "fontSize" : "9",
@@ -257,7 +247,7 @@
     "fontStyle" : [],
     "cellColor" : "#FFFFFF",
     "cellBorders" : ["left#Thin"],
-    "width" : "8"
+    "width" : "8.11"
   },
   "col_common5" : {
     "factory" : "PhPPTGen.phCommand.phExcel.PhSetXlsCssBaseCommand",
