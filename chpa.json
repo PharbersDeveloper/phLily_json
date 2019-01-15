@@ -8078,7 +8078,7 @@
             "tables": [
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTrendsChart",
-                "mkt_display": "Branded OP Mkt",
+                "mkt_display": "Women's Health Mkt",
                 "mkt_col": "DOT",
                 "pos": [
                   30, 60, 600, 400
@@ -10705,7 +10705,7 @@
                 "row": {
                   "title" : ":row_title_chart2",
                   "display_name" : [
-                    "Insulin MKTT%:row_8"
+                    "Insulin MKT%:row_8"
                   ]
                 }
               },
@@ -13680,7 +13680,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -13763,7 +13762,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -13797,7 +13795,6 @@
                 }
               }
             ]
-
           }
         },
         {
@@ -13846,7 +13843,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -13880,7 +13876,6 @@
                 }
               }
             ]
-
           }
         },
         {
@@ -14012,7 +14007,6 @@
                 }
               }
             ]
-
           }
         },
         {
@@ -14056,7 +14050,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14129,7 +14122,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14158,7 +14150,6 @@
                 }
               }
             ]
-
           }
         },
         {
@@ -14202,7 +14193,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14275,7 +14265,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14304,7 +14293,6 @@
                 }
               }
             ]
-
           }
         }
       ]
@@ -14542,7 +14530,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14623,7 +14610,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14894,7 +14880,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14996,7 +14981,6 @@
                 }
               }
             ]
-
           }
         }
       ]
