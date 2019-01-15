@@ -8627,7 +8627,7 @@
           }
         },
         {
-          "title": "",
+          "title": "Market Performance - in Total Analog Market in CHPA",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -8640,12 +8640,74 @@
               }
             ],
             "tables": [
-
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableBaseImpl",
+                "mkt_display": "Total Analog Insulin",
+                "mkt_col": "MMU",
+                "pos": [
+                  15, 60, 81, 81
+                ],
+                "timeline": [
+                  "YTD M#time24#:timeline_2","YTD M#time12#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "MMU:col_common",
+                    "YoY GR(%):col_common",
+                    "SOM(%):col_common"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Total Analog Insulin:row_1","Total Basal Analog:row_5",
+                    "Total Mealtime Analog:row_1"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentOnlyLineChart",
+                "mkt_display": "",
+                "mkt_col": "MMU",
+                "pos": [
+                  30, 300, 300, 200
+                ],
+                "timeline": [
+                  "M#time13#:timeline_3",
+                  "M#time14#:timeline_3",
+                  "M#time15#:timeline_3",
+                  "M#time16#:timeline_3",
+                  "M#time17#:timeline_3",
+                  "M#time18#:timeline_3",
+                  "M#time19#:timeline_3",
+                  "M#time20#:timeline_3",
+                  "M#time21#:timeline_3",
+                  "M#time22#:timeline_3",
+                  "M#time23#:timeline_3",
+                  "M#time24#:timeline_3"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Total Analog Insulin:row_5",
+                    "Total Basal Analog:row_5",
+                    "Total Mealtime Analog:row_5"
+                  ]
+                }
+              }
             ]
+
           }
         },
         {
-          "title": "",
+          "title": "Market Performance - in Total Mealtime Analog Market in CHPA",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -8658,12 +8720,75 @@
               }
             ],
             "tables": [
-
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableBaseImpl",
+                "mkt_display": "Total Mealtime Analog",
+                "mkt_col": "MMU",
+                "pos": [
+                  15, 60, 81, 81
+                ],
+                "timeline": [
+                  "YTD M#time24#:timeline_2","YTD M#time12#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "MMU:col_common",
+                    "YoY GR(%):col_common",
+                    "SOM(%):col_common",
+                    "Growth Contribution%:col_common"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Total Mealtime Analog:row_1","Humalog:row_5",
+                    "Novo Analog:row_5","PRANDILIN:row_5",
+                    "Apidra:row_5"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentOnlyLineChart",
+                "mkt_display": "",
+                "mkt_col": "MMU",
+                "pos": [
+                  30, 300, 300, 200
+                ],
+                "timeline": [
+                  "M#time13#:timeline_3",
+                  "M#time14#:timeline_3",
+                  "M#time15#:timeline_3",
+                  "M#time16#:timeline_3",
+                  "M#time17#:timeline_3",
+                  "M#time18#:timeline_3",
+                  "M#time19#:timeline_3",
+                  "M#time20#:timeline_3",
+                  "M#time21#:timeline_3",
+                  "M#time22#:timeline_3",
+                  "M#time23#:timeline_3",
+                  "M#time24#:timeline_3"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Humalog:row_5",
+                    "Novo Analog:row_5"
+                  ]
+                }
+              }
             ]
+
           }
         },
         {
-          "title": "",
+          "title": "Market Performance - in Total Mixture Analog Market in CHPA",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -8676,10 +8801,157 @@
               }
             ],
             "tables": [
-
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableBaseImpl",
+                "mkt_display": "Total Mixture Analog",
+                "mkt_col": "MMU",
+                "pos": [
+                  15, 60, 81, 81
+                ],
+                "timeline": [
+                  "YTD M#time24#:timeline_2","YTD M#time12#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "MMU:col_common",
+                    "YoY GR(%):col_common",
+                    "SOM(%):col_common",
+                    "Growth Contribution%:col_common"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Total Mixture Analog:row_1","Humalog 25:row_5",
+                    "Humalog 50:row_5","Novomix 30:row_5",
+                    "Novomix 50:row_5","PRANDILIN 25:row_5"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentOnlyLineChart",
+                "mkt_display": "",
+                "mkt_col": "MMU",
+                "pos": [
+                  30, 300, 300, 200
+                ],
+                "timeline": [
+                  "M#time13#:timeline_3",
+                  "M#time14#:timeline_3",
+                  "M#time15#:timeline_3",
+                  "M#time16#:timeline_3",
+                  "M#time17#:timeline_3",
+                  "M#time18#:timeline_3",
+                  "M#time19#:timeline_3",
+                  "M#time20#:timeline_3",
+                  "M#time21#:timeline_3",
+                  "M#time22#:timeline_3",
+                  "M#time23#:timeline_3",
+                  "M#time24#:timeline_3"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Total Mixture Analog:row_5",
+                    "Humalog 25:row_5",
+                    "Humalog 50:row_5",
+                    "Novomix 30:row_5","Novomix 50:row_5"
+                  ]
+                }
+              }
             ]
+
           }
         },
+        {
+          "title": "Market Performance - in Total Rapid Analog Market in CHPA",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableBaseImpl",
+                "mkt_display": "Total Rapid Analog",
+                "mkt_col": "MMU",
+                "pos": [
+                  15, 60, 81, 81
+                ],
+                "timeline": [
+                  "YTD M#time24#:timeline_2","YTD M#time12#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "MMU:col_common",
+                    "YoY GR(%):col_common",
+                    "SOM(%):col_common",
+                    "Growth Contribution%:col_common"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Total Rapid Analog:row_1","Humalog Rapid:row_5",
+                    "Novo Rapid:row_5","Prandilin Rapid:row_5",
+                    "Apidra:row_5"
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentOnlyLineChart",
+                "mkt_display": "",
+                "mkt_col": "MMU",
+                "pos": [
+                  30, 300, 300, 200
+                ],
+                "timeline": [
+                  "M#time13#:timeline_3",
+                  "M#time14#:timeline_3",
+                  "M#time15#:timeline_3",
+                  "M#time16#:timeline_3",
+                  "M#time17#:timeline_3",
+                  "M#time18#:timeline_3",
+                  "M#time19#:timeline_3",
+                  "M#time20#:timeline_3",
+                  "M#time21#:timeline_3",
+                  "M#time22#:timeline_3",
+                  "M#time23#:timeline_3",
+                  "M#time24#:timeline_3"
+                ],
+                "col": {
+                  "title" : ":col_title_chart",
+                  "count" : [
+                    "Growth(%):col_chart"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_chart",
+                  "display_name" : [
+                    "Total Rapid Analog:row_5",
+                    "Humalog Rapid:row_5",
+                    "Novo Rapid:row_5"
+                  ]
+                }
+              }
+            ]
+
+          }
+        }
         {
           "title": "Lilly Insulin and Key Competitors MMU MTH SOM Trends in Total Insulin Market",
           "content": {
