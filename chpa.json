@@ -8051,7 +8051,7 @@
             "tables": [
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTrendsChart",
-                "mkt_display": "Branded OP Mkt",
+                "mkt_display": "Women's Health Mkt",
                 "mkt_col": "DOT",
                 "pos": [
                   30, 60, 600, 400
@@ -8770,7 +8770,7 @@
                 ],
                 "timeline": [
                   "RQM#time01#:timeline_1", "RQM#time02#:timeline_1","RQM#time03#:timeline_1","RQM#time04#:timeline_1","RQM#time05#:timeline_1","RQM#time06#:timeline_1",
-                  "RQM#time07#:timeline_1","RQM#time08#:timeline_1","RQM#time09#:timeline_1","RQM#time10#:timeline_1","RQM#time11#:timeline_1","RQ09 17:timeline_1",
+                  "RQM#time07#:timeline_1","RQM#time08#:timeline_1","RQM#time09#:timeline_1","RQM#time10#:timeline_1","RQM#time11#:timeline_1","RQ#time12#:timeline_1",
                   "RQM#time13#:timeline_1", "RQM#time14#:timeline_1","RQM#time15#:timeline_1","RQM#time16#:timeline_1","RQM#time17#:timeline_1","RQM#time18#:timeline_1",
                   "RQM#time19#:timeline_1","RQM#time20#:timeline_1","RQM#time21#:timeline_1","RQM#time22#:timeline_1","RQM#time23#:timeline_1","RQM#time24#:timeline_1"
                 ],
@@ -10678,7 +10678,7 @@
                 "row": {
                   "title" : ":row_title_chart2",
                   "display_name" : [
-                    "Insulin MKTT%:row_8"
+                    "Insulin MKT%:row_8"
                   ]
                 }
               },
@@ -13653,7 +13653,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -13736,7 +13735,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -13770,7 +13768,6 @@
                 }
               }
             ]
-
           }
         },
         {
@@ -13819,7 +13816,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -13853,7 +13849,6 @@
                 }
               }
             ]
-
           }
         },
         {
@@ -13985,7 +13980,6 @@
                 }
               }
             ]
-
           }
         },
         {
@@ -14029,7 +14023,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14102,7 +14095,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14131,7 +14123,6 @@
                 }
               }
             ]
-
           }
         },
         {
@@ -14175,7 +14166,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14248,7 +14238,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14277,7 +14266,6 @@
                 }
               }
             ]
-
           }
         }
       ]
@@ -14515,7 +14503,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14596,7 +14583,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14867,7 +14853,6 @@
                   ]
                 }
               },
-
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTableImpl",
                 "mkt_display": "",
@@ -14969,7 +14954,6 @@
                 }
               }
             ]
-
           }
         }
       ]
