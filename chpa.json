@@ -9023,7 +9023,7 @@
             ]
 
           }
-        }
+        },
         {
           "title": "Lilly Insulin and Key Competitors MMU MTH SOM Trends in Total Insulin Market",
           "content": {
@@ -10988,7 +10988,7 @@
           }
         },
         {
-          "title": "Lilly Insulin MMU Growth Rate", 
+          "title": "Lilly Insulin MMU Growth Rate",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
