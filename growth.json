@@ -979,7 +979,7 @@
     {
       "filter": {
         "name": "Insulin_CHPA_ BRAND_1_MAPPING",
-        "description": "from display and timeline",
+        "description": "16-20",
         "factory": "com.pharbers.process.stm.step.pptx.filter.phSearchFilterImpl",
         "filt": []
       },
@@ -1609,7 +1609,7 @@
     {
       "filter": {
         "name": "Insulin_CHPA_ BRAND_1_MAPPING",
-        "description": "from display and timeline",
+        "description": "21-25",
         "factory": "com.pharbers.process.stm.step.pptx.filter.phSearchFilterImpl",
         "filt": []
       },
@@ -2232,7 +2232,7 @@
     {
       "filter": {
         "name": "Insulin_CHPA_ BRAND_1_MAPPING",
-        "description": "from display and timeline",
+        "description": "26",
         "factory": "com.pharbers.process.stm.step.pptx.filter.phSearchFilterImpl",
         "filt": []
       },
@@ -2560,7 +2560,7 @@
     {
       "filter": {
         "name": "Insulin_CHPA_ BRAND_1_MAPPING",
-        "description": "from display and timeline",
+        "description": "27-71",
         "factory": "com.pharbers.process.stm.step.pptx.filter.phSearchFilterImpl",
         "filt": []
       },
@@ -2777,8 +2777,8 @@
                   "title": ":row_title_chart2",
                   "display_name": [
                     "Total Rapid Analog:row_5",
-                    "PRANDILIN 25:row_5",
-                    "Humalog:row_5",
+                    "Prandilin Rapid:row_5",
+                    "Humalog Rapid:row_5",
                     "Novorapid:row_5",
                     "Apidra:row_5"
                   ]
@@ -3002,8 +3002,8 @@
                   "title": ":row_title_chart2",
                   "display_name": [
                     "Total Rapid Analog:row_5",
-                    "PRANDILIN:row_5",
-                    "Humalog:row_5",
+                    "Prandilin Rapid:row_5",
+                    "Humalog Rapid:row_5",
                     "Novorapid:row_5",
                     "Apidra:row_5"
                   ]
@@ -3514,8 +3514,8 @@
                 "row": {
                   "title": ":row_title_chart2",
                   "display_name": [
-                    "PRANDILIN:row_5",
-                    "Humalog:row_5",
+                    "Prandilin Rapid:row_5",
+                    "Humalog Rapid:row_5",
                     "Novorapid:row_5",
                     "Apidra:row_5"
                   ]
@@ -3587,8 +3587,8 @@
                 "row": {
                   "title": ":row_title_chart2",
                   "display_name": [
-                    "PRANDILIN:row_5",
-                    "Humalog:row_5",
+                    "Prandilin Rapid:row_5",
+                    "Humalog Rapid:row_5",
                     "Apidra:row_5"
                   ]
                 }
@@ -3659,8 +3659,8 @@
                 "row": {
                   "title": ":row_title_chart2",
                   "display_name": [
-                    "PRANDILIN:row_5",
-                    "Humalog:row_5",
+                    "Prandilin Rapid:row_5",
+                    "Humalog Rapid:row_5",
                     "Novorapid:row_5",
                     "Apidra:row_5"
                   ]
@@ -4337,18 +4337,6 @@
                   400
                 ],
                 "timeline": [
-                  "M#time01#:timeline_3",
-                  "M#time02#:timeline_3",
-                  "M#time03#:timeline_3",
-                  "M#time04#:timeline_3",
-                  "M#time05#:timeline_3",
-                  "M#time06#:timeline_3",
-                  "M#time07#:timeline_3",
-                  "M#time08#:timeline_3",
-                  "M#time09#:timeline_3",
-                  "M#time10#:timeline_3",
-                  "M#time11#:timeline_3",
-                  "M#time12#:timeline_3",
                   "M#time13#:timeline_3",
                   "M#time14#:timeline_3",
                   "M#time15#:timeline_3",
@@ -5073,18 +5061,6 @@
                   400
                 ],
                 "timeline": [
-                  "M#time01#:timeline_3",
-                  "M#time02#:timeline_3",
-                  "M#time03#:timeline_3",
-                  "M#time04#:timeline_3",
-                  "M#time05#:timeline_3",
-                  "M#time06#:timeline_3",
-                  "M#time07#:timeline_3",
-                  "M#time08#:timeline_3",
-                  "M#time09#:timeline_3",
-                  "M#time10#:timeline_3",
-                  "M#time11#:timeline_3",
-                  "M#time12#:timeline_3",
                   "M#time13#:timeline_3",
                   "M#time14#:timeline_3",
                   "M#time15#:timeline_3",
@@ -5555,18 +5531,6 @@
                   400
                 ],
                 "timeline": [
-                  "M#time01#:timeline_3",
-                  "M#time02#:timeline_3",
-                  "M#time03#:timeline_3",
-                  "M#time04#:timeline_3",
-                  "M#time05#:timeline_3",
-                  "M#time06#:timeline_3",
-                  "M#time07#:timeline_3",
-                  "M#time08#:timeline_3",
-                  "M#time09#:timeline_3",
-                  "M#time10#:timeline_3",
-                  "M#time11#:timeline_3",
-                  "M#time12#:timeline_3",
                   "M#time13#:timeline_3",
                   "M#time14#:timeline_3",
                   "M#time15#:timeline_3",
@@ -6036,18 +6000,6 @@
                   400
                 ],
                 "timeline": [
-                  "M#time01#:timeline_3",
-                  "M#time02#:timeline_3",
-                  "M#time03#:timeline_3",
-                  "M#time04#:timeline_3",
-                  "M#time05#:timeline_3",
-                  "M#time06#:timeline_3",
-                  "M#time07#:timeline_3",
-                  "M#time08#:timeline_3",
-                  "M#time09#:timeline_3",
-                  "M#time10#:timeline_3",
-                  "M#time11#:timeline_3",
-                  "M#time12#:timeline_3",
                   "M#time13#:timeline_3",
                   "M#time14#:timeline_3",
                   "M#time15#:timeline_3",
