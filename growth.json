@@ -3178,7 +3178,7 @@
             "tables": [
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTrendsChart",
-                "mkt_display": "Total Human Insulin",
+                "mkt_display": "Total Mealtime Analog",
                 "mkt_col": "MMU",
                 "pos": [
                   30,
@@ -7517,7 +7517,7 @@
             "tables": [
               {
                 "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentTrendsChart",
-                "mkt_display": "Ceclor MKT",
+                "mkt_display": "Lilly Relevant Total Mkt",
                 "mkt_col": "RMB",
                 "pos": [
                   30,
@@ -7576,7 +7576,7 @@
     {
       "filter": {
         "name": "Vancocin_CHPA_ BRAND_1_MAPPING",
-        "description": "from display and timeline",
+        "description": "69-71",
         "factory": "com.pharbers.process.stm.step.pptx.filter.phSearchFilterImpl",
         "filt": []
       },
