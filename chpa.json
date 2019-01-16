@@ -701,7 +701,7 @@
       },
       "sliders": [
         {
-          "title": "Profile of Lilly Products in CHPA\n (MAT M#time00# ~ MAT M#time24#)",
+          "title": "Profile of Lilly Products in CHPA \n (MAT M#time00# ~ MAT M#time24#)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -2777,7 +2777,7 @@
           }
         },
         {
-          "title": "Key Competitors DOT/CASH Performance in CHPA (MAT)",
+          "title": "Key Competitors DOT/CASH Performance  in CHPA (MAT)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -2852,7 +2852,7 @@
           }
         },
         {
-          "title": "Key Competitors DOT/CASH Performance in CHPA (MTH)",
+          "title": "Key Competitors DOT/CASH Performance  in CHPA (MTH)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -2926,7 +2926,7 @@
           }
         },
         {
-          "title": "Key Competitors DOT/CASH Performance in CHPA (YTD)",
+          "title": "Key Competitors DOT/CASH Performance  in CHPA (YTD)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -3001,7 +3001,7 @@
           }
         },
         {
-          "title": "Key Competitors DOT/CASH Performance in CHPA (RQ)",
+          "title": "Key Competitors DOT/CASH Performance  in CHPA (RQ)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -3550,7 +3550,7 @@
           }
         },
         {
-          "title": "Prozac and Key Competitors DOT/CASH Performancein Branded MKT CHPA (MAT)",
+          "title": "Prozac and Key Competitors DOT/CASH Performance in Branded MKT CHPA (MAT)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -3626,7 +3626,7 @@
           }
         },
         {
-          "title": "Prozac and Key Competitors DOT/CASH Performancein Branded MKT CHPA (MTH)",
+          "title": "Prozac and Key Competitors DOT/CASH Performance in Branded MKT CHPA (MTH)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -3702,7 +3702,7 @@
           }
         },
         {
-          "title": "Prozac and Key Competitors DOT/CASH Performancein Branded MKT CHPA (YTD)",
+          "title": "Prozac and Key Competitors DOT/CASH Performance in Branded MKT CHPA (YTD)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -3778,7 +3778,7 @@
           }
         },
         {
-          "title": "Prozac and Key Competitors DOT/CASH Performancein Branded MKT CHPA (RQ)",
+          "title": "Prozac and Key Competitors DOT/CASH Performance in Branded MKT CHPA (RQ)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -4426,7 +4426,7 @@
           }
         },
         {
-          "title": "Cymbalta CMP and Key Competitors DOT/CASH Performancein Branded MKT CHPA (MAT)",
+          "title": "Cymbalta CMP and Key Competitors DOT/CASH Performance in Branded MKT CHPA (MAT)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -4505,7 +4505,7 @@
           }
         },
         {
-          "title": "Cymbalta and Key Competitors DOT/CASH Performancein Branded MKT CHPA (MTH)",
+          "title": "Cymbalta and Key Competitors DOT/CASH Performance in Branded MKT CHPA (MTH)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -4584,7 +4584,7 @@
           }
         },
         {
-          "title": "Cymbalta and Key Competitors DOT/CASH Performancein Branded MKT CHPA (YTD)",
+          "title": "Cymbalta and Key Competitors DOT/CASH Performance in Branded MKT CHPA (YTD)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -4663,7 +4663,7 @@
           }
         },
         {
-          "title": "Cymbalta and Key Competitors DOT/CASH Performancein Branded MKT CHPA (RQ)",
+          "title": "Cymbalta and Key Competitors DOT/CASH Performance in Branded MKT CHPA (RQ)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -4788,7 +4788,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT & RMB Performance in CHPA (MAT)",
+          "title": "Zyprexa and Key Competitors DOT & RMB Performance  in CHPA (MAT)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -4892,7 +4892,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT & RMB Performance in CHPA (MTH)",
+          "title": "Zyprexa and Key Competitors DOT & RMB Performance  in CHPA (MTH)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -4996,7 +4996,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT & RMB Performance in CHPA (YTD)",
+          "title": "Zyprexa and Key Competitors DOT & RMB Performance  in CHPA (YTD)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -5100,7 +5100,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT & RMB Performance in CHPA (RQ)",
+          "title": "Zyprexa and Key Competitors DOT & RMB Performance  in CHPA (RQ)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -5204,7 +5204,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT&RMB Performancein Branded MKT CHPA (MAT)",
+          "title": "Zyprexa and Key Competitors DOT&RMB Performance in Branded MKT CHPA (MAT)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -5279,7 +5279,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT&RMB Performancein Branded MKT CHPA (MTH)",
+          "title": "Zyprexa and Key Competitors DOT&RMB Performance in Branded MKT CHPA (MTH)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -5354,7 +5354,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT&RMB Performancein Branded MKT CHPA (YTD)",
+          "title": "Zyprexa and Key Competitors DOT&RMB Performance in Branded MKT CHPA (YTD)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -5429,7 +5429,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT&RMB Performancein Branded MKT CHPA (RQ)",
+          "title": "Zyprexa and Key Competitors DOT&RMB Performance in Branded MKT CHPA (RQ)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -5573,7 +5573,7 @@
           }
         },
         {
-          "title": "Zyprexa and Key Competitors DOT Performancein Branded MKT*",
+          "title": "Zyprexa and Key Competitors DOT Performance in Branded MKT*",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -5927,7 +5927,7 @@
           }
         },
         {
-          "title": "Strattera and Key Competitors DOT&RMB Performancein CHPA (MAT)",
+          "title": "Strattera and Key Competitors DOT&RMB Performance in CHPA (MAT)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
@@ -7152,7 +7152,7 @@
           }
         },
         {
-          "title": "Cialis BPH and Key Competitors DOT/CASH Performancein Branded MKT CHPA (MAT)",
+          "title": "Cialis BPH and Key Competitors DOT/CASH Performance in Branded MKT CHPA (MAT)",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
             "texts": [
