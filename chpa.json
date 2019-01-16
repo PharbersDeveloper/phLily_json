@@ -8699,24 +8699,6 @@
           }
         },
         {
-          "title": "",
-          "content": {
-            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
-            "texts": [
-              {
-                "pos": [
-                  0, 0, 100, 100
-                ],
-                "font": "",
-                "text": ""
-              }
-            ],
-            "tables": [
-
-            ]
-          }
-        },
-        {
           "title": "Market Performance - in Total Analog Market in CHPA",
           "content": {
             "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
@@ -9041,7 +9023,7 @@
             ]
 
           }
-        }
+        },
         {
           "title": "Lilly Insulin and Key Competitors MMU MTH SOM Trends in Total Insulin Market",
           "content": {
@@ -9631,7 +9613,7 @@
                 "row": {
                   "title" : ":row_title_chart",
                   "display_name" : [
-                    "PRANDILIN:row_5","Humalog:row_5",
+                    "Prandilin Rapid:row_5","Humalog Rapid:row_5",
                     "Novorapid:row_5","Apidra:row_5"
                   ]
                 }
@@ -9707,10 +9689,10 @@
                   30, 60, 600, 400
                 ],
                 "timeline": [
-                  "M#time01#:timeline_1", "M#time02#:timeline_1","M#time03#:timeline_1","M#time04#:timeline_1","M#time05#:timeline_1","M#time06#:timeline_1",
-                  "M#time07#:timeline_1","M#time08#:timeline_1","M#time09#:timeline_1","M#time10#:timeline_1","M#time11#:timeline_1","M#time12#:timeline_1",
-                  "M#time13#:timeline_1", "M#time14#:timeline_1","M#time15#:timeline_1","M#time16#:timeline_1","M#time17#:timeline_1","M#time18#:timeline_1",
-                  "M#time19#:timeline_1","M#time20#:timeline_1","M#time21#:timeline_1","M#time22#:timeline_1","M#time23#:timeline_1","M#time24#:timeline_1"
+                  "RQ#time01#:timeline_1", "RQ#time02#:timeline_1","RQ#time03#:timeline_1","RQ#time04#:timeline_1","RQ#time05#:timeline_1","RQ#time06#:timeline_1",
+                  "RQ#time07#:timeline_1","RQ#time08#:timeline_1","RQ#time09#:timeline_1","RQ#time10#:timeline_1","RQ#time11#:timeline_1","RQ#time12#:timeline_1",
+                  "RQ#time13#:timeline_1", "RQ#time14#:timeline_1","RQ#time15#:timeline_1","RQ#time16#:timeline_1","RQ#time17#:timeline_1","RQ#time18#:timeline_1",
+                  "RQ#time19#:timeline_1","RQ#time20#:timeline_1","RQ#time21#:timeline_1","RQ#time22#:timeline_1","RQ#time23#:timeline_1","RQ#time24#:timeline_1"
                 ],
                 "col": {
                   "title" : ":col_title_chart",
@@ -9721,8 +9703,8 @@
                 "row": {
                   "title" : ":row_title_chart",
                   "display_name" : [
-                    "Total Rapid Analog:row_5","PRANDILIN:row_5",
-                    "Humalog:row_5","Novorapid:row_5",
+                    "Total Rapid Analog:row_5","Prandilin Rapid:row_5",
+                    "Humalog Rapid:row_5","Novorapid:row_5",
                     "Apidra:row_5"
                   ]
                 }
@@ -12505,7 +12487,7 @@
                 "col": {
                   "title" : ":col_title_chart",
                   "count" : [
-                    "SOM%:col_chart1"
+                    "Growth(%):col_chart1"
                   ]
                 },
                 "row": {
@@ -13085,7 +13067,7 @@
                   30, 60, 81, 81
                 ],
                 "timeline": [
-                  "MAT M#time24#:timeline_2", "MAT M#time12#:timeline_2"
+                  "M#time24#:timeline_2", "M#time12#:timeline_2"
                 ],
                 "col": {
                   "title" : ":col_title_common",
@@ -13112,7 +13094,7 @@
                   30, 300, 81, 81
                 ],
                 "timeline": [
-                  "MAT M#time24#:timeline_2", "MAT M#time12#:timeline_2"
+                  "M#time24#:timeline_2", "M#time12#:timeline_2"
                 ],
                 "col": {
                   "title" : ":col_title_common",
@@ -13227,7 +13209,7 @@
                   30, 60, 81, 81
                 ],
                 "timeline": [
-                  "YTD M#time24#:timeline_2", "YTD M#time12#:timeline_2"
+                  "RQ M#time24#:timeline_2", "RQ M#time12#:timeline_2"
                 ],
                 "col": {
                   "title" : ":col_title_common",
@@ -13254,7 +13236,7 @@
                   30, 300, 81, 81
                 ],
                 "timeline": [
-                  "YTD M#time24#:timeline_2", "YTD M#time12#:timeline_2"
+                  "RQ M#time24#:timeline_2", "RQ M#time12#:timeline_2"
                 ],
                 "col": {
                   "title" : ":col_title_common",
