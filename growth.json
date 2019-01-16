@@ -625,7 +625,7 @@
         }
       ]
     },
-     {
+    {
       "filter": {
         "name": ["Manufa"],
         "description": "12",
@@ -7557,12 +7557,11 @@
                     "CRAVIT    DSC:row_5",
                     "Total Generic Levofloxacin(Generic Cravit):row_5",
                     "AVELOX    BAY:row_5",
-                    "CEFSPAN    GBY:row_5",
+                    "CEFSPAN GBY:row_5",
                     "Total Generic Cefixime(Generic Cefspan):row_5",
                     "SHI FU NI    TGC:row_5",
                     "Other Generic Cefdinir:row_5",
-                    "AN QI SMC:row_5",
-                    "JUN ER QING    S6B:row_5",
+                    "WAN XING NING    B4W:row_5",
                     "Other Amoxicillin:row_5"
                   ]
                 }
