@@ -4,6 +4,334 @@
     {
       "filter": {
         "name": "Insulin_CHPA_ BRAND_1_MAPPING",
+        "description": "4,5,6",
+        "factory": "com.pharbers.process.stm.step.pptx.filter.phCityRankFilterImpl",
+        "filt": [""],
+        "countryDataName" : "DF_gen_search_set",
+        "shareDataName" : "DF_gen_city_search_set"
+      },
+      "sliders": [
+        {
+          "title": "Market Performance – by City",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankChartCommonTable",
+                "mkt_display": "Total Mealtime Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  30, 90, 200, 400
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM(%):col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    ""
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankBarStackedChartCommonTable",
+                "mkt_display": "Total Mealtime Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  220, 67, 300, 423
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM(%):col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    "Humalog",
+                    "Novo Analog",
+                    "PRANDILIN",
+                    "Apidra"
+                  ]
+                },
+                "city": ["Total CHPA"]
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankYOYCommonTable",
+                "mkt_display": "Total Mealtime Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  520, 77, 81, 100
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM YOY:col_common3",
+                    "NTM GR:col_common3",
+                    "YTD GR:col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    "Humalog"
+                  ]
+                },
+                "city": ["Total CHPA"],
+                "show_display": [
+                  {
+                    "show_display_name": "Total Mealtime Analog",
+                    "col_display_name": [
+                      "Total Mealtime Analog"
+                    ]
+                  },
+                  {
+                    "show_display_name": "Humalog",
+                    "col_display_name": ["Humalog"]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Market Performance – by City",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankChartCommonTable",
+                "mkt_display": "Total Mixture Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  30, 90, 200, 400
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM(%):col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    ""
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankBarStackedChartCommonTable",
+                "mkt_display": "Total Mixture Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  220, 67, 300, 423
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM(%):col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    "Humalog 25",
+                    "Humalog 50",
+                    "Novomix 30",
+                    "Novomix 50",
+                    "PRANDILIN 25"
+                  ]
+                },
+                "city": ["Total CHPA"]
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankYOYCommonTable",
+                "mkt_display": "Total Mixture Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  520, 77, 81, 100
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM YOY:col_common3",
+                    "NTM GR:col_common3",
+                    "YTD GR:col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    "Humalog 25", "Humalog 50"
+                  ]
+                },
+                "city": ["Total CHPA"],
+                "show_display": [
+                  {
+                    "show_display_name": "Total Mixture Analog",
+                    "col_display_name": [
+                      "Total Mixture Analog"
+                    ]
+                  },
+                  {
+                    "show_display_name": "Humalog",
+                    "col_display_name": ["Humalog 25", "Humalog 50"]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Market Performance – by City",
+          "content": {
+            "factory": "com.pharbers.process.stm.step.pptx.slider.content.phReportContentImpl",
+            "texts": [
+              {
+                "pos": [
+                  0, 0, 100, 100
+                ],
+                "font": "",
+                "text": ""
+              }
+            ],
+            "tables": [
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankChartCommonTable",
+                "mkt_display": "Total Rapid Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  30, 90, 200, 400
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM(%):col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    ""
+                  ]
+                }
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankBarStackedChartCommonTable",
+                "mkt_display": "Total Rapid Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  220, 67, 300, 423
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM(%):col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    "Humalog Rapid",
+                    "Novo Rapid",
+                    "Prandilin Rapid",
+                    "Apidra"
+                  ]
+                },
+                "city": ["Total CHPA"]
+              },
+              {
+                "factory": "com.pharbers.process.stm.step.pptx.slider.content.phContentTable.phCityRankYOYCommonTable",
+                "mkt_display": "Total Rapid Analog",
+                "mkt_col": "DOT",
+                "pos": [
+                  520, 77, 81, 100
+                ],
+                "timeline": [
+                  "YTD Q#qtime8#:timeline_2"
+                ],
+                "col": {
+                  "title" : ":col_title_common",
+                  "count" : [
+                    "SOM YOY:col_common3",
+                    "NTM GR:col_common3",
+                    "YTD GR:col_common3"
+                  ]
+                },
+                "row": {
+                  "title" : ":row_title_common",
+                  "display_name" : [
+                    "Humalog Rapid"
+                  ]
+                },
+                "city": ["Total CHPA"],
+                "show_display": [
+                  {
+                    "show_display_name": "Total Rapid Analog",
+                    "col_display_name": [
+                      "Total Rapid Analog"
+                    ]
+                  },
+                  {
+                    "show_display_name": "Humalog Rapid",
+                    "col_display_name": ["Humalog Rapid"]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "filter": {
+        "name": "Insulin_CHPA_ BRAND_1_MAPPING",
         "description": "7-34",
         "factory": "com.pharbers.process.stm.step.pptx.filter.phSearchFilterImpl",
         "filt": []

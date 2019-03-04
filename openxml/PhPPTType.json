@@ -1,0 +1,38 @@
+{
+  "defult": [
+    {
+      "index": "1",
+      "name": "test",
+      "placeholderType": "DateAndTime",
+      "x": "1926454",
+      "y": "1926454",
+      "cx": "3444536",
+      "cy": "3444536",
+      "alpha": "100000",
+      "backColor": "FFF000",
+      "content": [
+        {
+          "alignment": "Center",
+          "run": [
+            {
+              "type": "field",
+              "id": "{0F952C1A-6D42-4F2A-A24F-B164E33AA632}",
+              "fieldType": "datetime1",
+              "text": "2019/3/2",
+              "fontSize": "18",
+              "bold": "false",
+              "color": "FF0000"
+            },
+            {
+              "type": "run",
+              "text": "2019/3/2",
+              "fontSize": "18",
+              "bold": "false",
+              "color": "FF0000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
