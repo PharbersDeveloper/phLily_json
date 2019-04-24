@@ -142,6 +142,11 @@
     "Bold": "true",
     "Color": "FFFFFF",
     "Font": "Arial"
+  },
+  "9BlackBold": {
+    "FontSize": "9",
+    "Bold": "true",
+    "Color": "000000",
+    "Font": "Arial"
   }
-
 }

@@ -23,7 +23,7 @@
     "PushText": "PhPPTGen.phCommand.phText.PhTextContentForXmlCommand",
     "Excel2Chart": "PhPPTGen.phCommand.phChart.PhPPTImportChartCommand",
     "CreateSlider": "PhPPTGen.phCommand.phPpt.PhCreateSliderForXmlCommand",
-    "PushPPT": "PhPPTGen.phCommand.phPpt.PhCommand"
+    "PushPPT": "PhPPTGen.phCommand.phPpt.PhPushPPT2OSSCommand"
   },
   "pptType": "PhChcPPTType.json"
 }
